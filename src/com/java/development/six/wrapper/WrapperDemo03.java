@@ -28,7 +28,9 @@ public class WrapperDemo03 {
     public static void main(String[] args) {
         Integer i = 30; //自动装箱  JDK>=1.5
         Float f = 30.3f;
+        @SuppressWarnings("unused")
         int x = i; //自动拆箱
+        @SuppressWarnings("unused")
         float y = f;
 
     }

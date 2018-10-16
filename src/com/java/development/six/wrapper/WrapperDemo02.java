@@ -27,7 +27,9 @@ public class WrapperDemo02 {
      */
     public static void main(String[] args) {
         float f = 30.3f;
+        @SuppressWarnings("deprecation")
         Float x = new Float(f); //装箱
+        @SuppressWarnings("unused")
         float y = x.floatValue(); //拆箱
 
     }

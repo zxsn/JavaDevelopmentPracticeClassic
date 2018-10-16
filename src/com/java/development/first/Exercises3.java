@@ -20,8 +20,6 @@ package com.java.development.first;
 */
 public class Exercises3 {
 
-    private static final int[] newArray = null;
-
     /**
      *@title main 
      *@description: TODO

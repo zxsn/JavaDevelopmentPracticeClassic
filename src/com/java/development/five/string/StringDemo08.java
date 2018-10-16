@@ -26,6 +26,7 @@ public class StringDemo08 {
      *@throws 
      */
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         String str = new String("hello"); //通过关键字new实例化
     }
 

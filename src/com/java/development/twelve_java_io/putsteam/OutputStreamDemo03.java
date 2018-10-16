@@ -1,0 +1,53 @@
+
+/**  
+* @Title: OutputStreamDemo03.java
+* @Package com.java.development.twelve_java_io.outputsteam
+* @Description: TODO(用一句话描述该文件做什么)
+* @author Administrator
+* @date 2018年10月25日
+* @version V1.0  
+*/
+
+package com.java.development.twelve_java_io.putsteam;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
+/**
+    * @ClassName: OutputStreamDemo03
+    * @Description: 追加新内容
+    * @author Administrator
+    * @date 2018年10月25日
+    *
+    */
+
+public class OutputStreamDemo03 {
+
+    /**
+     * @throws Exception 
+        * @Title: main
+        * @Description: TODO(这里用一句话描述这个方法的作用)
+        * @param @param args    参数
+        * @return void    返回类型
+        * @throws
+        */
+
+    public static void main(String[] args) throws Exception {
+        //第1步：使用File类找到一个文件
+        File f = new File("d:" + File.separator + "test.txt");//声明File对象
+        //第2步，通过子类实例化父类对象
+        OutputStream out = null;//准备好一个输出的对象
+        out = new FileOutputStream(f, true);//通过对象多态性，进行实例化
+        //第3步，进行写操作
+        String str = "\r\nHello World!!!";//准备一个字符串。使用\r\n增加换行
+        byte b[] = str.getBytes();//只能输出byte数组，所以将字符串变为byte数组
+        for (int i = 0; i < b.length; i++) {
+            out.write(b[i]);//将内容输出
+        }
+        //第4步，关闭输入流
+        out.close();
+
+    }
+
+}

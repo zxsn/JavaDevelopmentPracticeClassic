@@ -20,8 +20,8 @@ class Person {
     private int    age;
 
     public Person(String name, int age) {
-        name = name; //对变量 name 的赋值不生效      this.nage = name;
-        age = age; //对变量 age 的赋值不生效             this.age = age;
+        //name = name; //对变量 name 的赋值不生效      this.nage = name;
+        //age = age; //对变量 age 的赋值不生效             this.age = age;
     }
 
     public String getInfo() {

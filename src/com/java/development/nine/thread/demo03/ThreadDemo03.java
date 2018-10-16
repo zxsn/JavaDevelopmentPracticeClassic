@@ -43,6 +43,7 @@ public class ThreadDemo03 {
      */
     public static void main(String[] args) {
         MyThread mt1 = new MyThread("线程A");//实例化对象
+        @SuppressWarnings("unused")
         MyThread mt2 = new MyThread("线程B");
         mt1.start();//启动线程
         mt1.start();//多次调用，报错：java.lang.IllegalThreadStateException

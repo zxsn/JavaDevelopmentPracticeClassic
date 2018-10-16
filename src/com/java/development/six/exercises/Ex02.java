@@ -16,8 +16,11 @@ package com.java.development.six.exercises;
  * @version: V1.0   
 */
 class Graphics {
+    @SuppressWarnings("unused")
     private float  length;    //长
+    @SuppressWarnings("unused")
     private float  width;     //宽
+    @SuppressWarnings("unused")
     private String backcolor; //背景色
 
     public void size() {
