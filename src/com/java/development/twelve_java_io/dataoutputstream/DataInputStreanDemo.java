@@ -46,7 +46,7 @@ public class DataInputStreanDemo {
         try {
             while (true) {//循环读取
                 temp = new char[200];//开辟空间
-                len = 0;
+				len = 0;// 此处必须清空字符串下标，否则读到的数据前面有空格
                 while ((c = dis.readChar()) != '\t') {//读取字符
                     temp[len] = c;//接收内容
                     len++;

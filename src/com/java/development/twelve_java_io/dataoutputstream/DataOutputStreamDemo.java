@@ -37,7 +37,7 @@ public class DataOutputStreamDemo {
         DataOutputStream dos = null;//声明数据输入流对象
         File f = new File("d:" + File.separator + "order.txt");//指定文件的保存路径
         dos = new DataOutputStream(new FileOutputStream(f));//实例化数据输出流对象
-        String names[] = { "衬衣", "手套", "围巾" };
+		String names[] = {"衬衣", "手套", "围巾"};
         float prices[] = { 98.3f, 30.3f, 50.5f };
         int nums[] = { 3, 2, 1 };
         for (int i = 0; i < names.length; i++) {//循环写入

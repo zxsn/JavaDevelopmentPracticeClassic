@@ -1,6 +1,6 @@
 /** 
  * projectName:Java开发实战经典 
- * fileName:TestDemo.java 
+ * fileName:TestDemo02.java 
  * packageName:com.java.development.nine.callable 
  * date:2018年9月29日下午6:37:35 
  * copyright(c) 2017-2020 xxx公司
@@ -10,7 +10,7 @@ package com.java.development.nine.callable;
 import java.util.concurrent.FutureTask;
 
 /**   
- * @title: TestDemo.java 
+ * @title: TestDemo02.java 
  * @package com.java.development.nine.callable 
  * @description: TODO
  * @author: zxsn

@@ -1,6 +1,6 @@
 
 /**  
-* @Title: TestDemo.java
+* @Title: TestDemo02.java
 * @Package com.java.development.twelve_java_io.outputsteam
 * @Description: 自动关闭接口验证
 * @author Administrator
@@ -32,7 +32,7 @@ class Net implements AutoCloseable {
 }
 
 /**
-* @ClassName: TestDemo
+* @ClassName: TestDemo02
 * @Description: TODO(这里用一句话描述这个类的作用)
 * @author Administrator
 * @date 2018年10月25日

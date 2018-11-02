@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.java.development.sixteen_annotation_lamda.documented","h":"","u":""},{"l":"所有程序包","h":"","u":"allpackages-index.html"}]

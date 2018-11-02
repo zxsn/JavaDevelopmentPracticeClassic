@@ -26,7 +26,7 @@ import java.io.OutputStream;
 *
 */
 
-public class SerDemo03 {
+public class SerDemo04 {
 
     /**
      * @throws Exception 
