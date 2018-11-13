@@ -10,7 +10,7 @@ package com.java.development.six.absandinf;
 /**   
  * @title: PetShop.java 
  * @package com.java.development.six.absandinf 
- * @description: TODO
+ * @description: 宠物商店
  * @author: zxsn
  * @date: 2018年9月27日 上午11:43:56 
  * @version: V1.0   

@@ -10,7 +10,7 @@ package com.java.development.six.absandinf;
 /**   
  * @title: Pet.java 
  * @package com.java.development.six.absandinf 
- * @description: TODO
+ * @description: 宠物接口
  * @author: zxsn
  * @date: 2018年9月27日 上午11:33:42 
  * @version: V1.0   
